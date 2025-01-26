@@ -1,5 +1,7 @@
 # ESPHome LD2450 mmWave Radar Sensor 
 
+![alt text](https://raw.githubusercontent.com/mplinuxgeek/ESPmmWave-LD2450/refs/heads/main/images/PXL_20250126_034343483.jpg?raw=true)
+
 ## Overview
 This project includes the PCB Gerber files, BOM, STL and ESPHome YAML for building a compact ESPHome LD2450 mmWave Radar sensor, the board has been designed to surface mount a Xiao ESP32 S3 using the Castellated pin pads, an HLK-LD2450 module is connected via a female header connector and an optional onboard WS2812B LED. The PCB was designed specifically to fit inside a Hammond 1551V3GY vented case. It runs ESPHome firmware for easy integration with Home Assistant however note that the LD2450 is NOT yet officially supported in ESPHome.
 
