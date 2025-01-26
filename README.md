@@ -47,10 +47,11 @@ https://github.com/EverythingSmartHome/everything-presence-lite/blob/main/common
    - Solder the Xiao ESP32 S3, 8 pin header, WS2812B LED, and JST connector to the PCB as per the silkscreen and schematic.
 
 4. **Case Assembly**
-   - Fit the assembled PCB into the Hammond 1551V3GY case using 4x M2.5 6mm screws
-   - Fit the bracket to the top side of the board using the top screws to secure the bracket
-   - Connect the LD2450 to the pin header then snap it into the bracket
+   - Fit the assembled PCB into the Hammond 1551V3GY case using 4x M2.5 6mm screws.
+   - Fit the bracket to the top side of the board using the top screws to secure the bracket.
+   - Connect the LD2450 to the pin header then snap it into the bracket.
    - If your Xiao S3 has an external antenna instead of an embedded antenna stick it to the inside of the front half of the case (not the back half as the PCB has top and bottom ground plane although it would probably work ok behind I haven't tested it), make sure its off to the side rather than directly infront of the LD2450, it seems to work fine like this as the LD2450 is only 3-4mm away from the front of the case.
+   - Cut some vent "bars" out to make access to the USB connector, alternatively use the JST header for power and find a way to get power wires into the case.
 
 ## Additional Notes
 - Ensure proper soldering of components to avoid electrical issues.
