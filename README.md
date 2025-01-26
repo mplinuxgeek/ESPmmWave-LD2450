@@ -5,7 +5,7 @@
 ## Overview
 This project includes the PCB Gerber files, BOM, STL and ESPHome YAML for building a compact ESPHome LD2450 mmWave Radar sensor, the board has been designed to surface mount a Xiao ESP32 S3 using the Castellated pin pads, an HLK-LD2450 module is connected via a female header connector and an optional onboard WS2812B LED. The PCB was designed specifically to fit inside a Hammond 1551V3GY vented case. It runs ESPHome firmware for easy integration with Home Assistant however note that the LD2450 is NOT yet officially supported in ESPHome.
 
-The code was mostly borrowed from [EverythingSmartHome](https://shop.everythingsmart.io/products/everything-presence-lite) with some changes to suit my use case.
+The code was mostly borrowed from [EverythingSmartHome](https://shop.everythingsmart.io/products/everything-presence-lite) with some changes to suit my use case and is still a work in progress so I won't share it just yet but it will be added to this repo as soon as I've finalised the LED behaviour.
 https://github.com/EverythingSmartHome/everything-presence-lite/blob/main/common/ld2450-base.yaml
 
 ## Features
