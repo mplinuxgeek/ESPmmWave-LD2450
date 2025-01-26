@@ -27,7 +27,7 @@ https://github.com/EverythingSmartHome/everything-presence-lite/blob/main/common
 ### Hardware Requirements
 1. Xiao ESP32 S3
 2. HLK-LD2450 module
-3. Hammond 1551V3GY vented case
+3. Hammond 1551V3GY vented case (unvented would should be ok but I chose vented to help with heat management)
 4. USB-C cable for power
 5. WS2812B LED (Optional)
 6. JST-style connector for power (Optional)
