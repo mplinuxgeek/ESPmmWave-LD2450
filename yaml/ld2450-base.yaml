@@ -659,12 +659,12 @@ sensor:
 uart:
   id: uart_bus
   tx_pin: 
-    number: GPIO17
+    number: GPIO9
     mode:
       input: true
       pullup: true
   rx_pin: 
-    number: GPIO16
+    number: GPIO8
     mode:
       input: true
       pullup: true
